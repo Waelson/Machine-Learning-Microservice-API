@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/Waelson/Machine-Learning-Microservice-API/tree/circleci-project-setup.svg?style=svg)](https://circleci.com/gh/Waelson/Machine-Learning-Microservice-API/tree/circleci-project-setup)
+[![CircleCI](https://circleci.com/gh/Waelson/Machine-Learning-Microservice-API.svg?style=svg)](https://circleci.com/gh/Waelson/Machine-Learning-Microservice-API)
 
 ## Project Overview
 
