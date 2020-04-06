@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-ml-deployment
+
+spec:
+  replicas: 2 # Quantas replicas eu quero
+  selector:
+    matchLabels:
+      app: api-ml #Esse rotulo deve ser o mesmo dos PODs
+  
+  #Configuracoes do POD
+  template:
+    metadata:
+      #Configura o rotulo no POD
+      labels:
+        app: api-ml #Usado pelo deployment selector 
+    spec:
+      containers:
+      - name: api-ml
+        image: thedevices/project-ml-microservice-kubernetes:latest
+        ports:
+        - containerPort: 80

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: api-ml
+  labels:
+    app: api
+spec:
+  containers:
+    - name: api-ml
+      image: thedevices/project-ml-microservice-kubernetes:latest
+      ports:
+      - containerPort: 80        
