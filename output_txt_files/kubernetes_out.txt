@@ -1,0 +1,7 @@
+(.devops) (base) MacBook-Pro-de-Waelson:project-ml-microservice-kubernetes waelson$ ./run_kubernetes.sh 
+pod/api-ml created
+NAME     READY   STATUS    RESTARTS   AGE
+api-ml   1/1     Running   0          30s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
